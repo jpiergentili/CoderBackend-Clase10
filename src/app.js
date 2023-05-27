@@ -6,7 +6,7 @@ import cartsRouter from './routes/carts.router.js'
 import cartRouter from './routes/cart.router.js'
 import sessionRouter from './routes/session.router.js'
 import session from 'express-session'
-import MongoStore from 'connect-mongo'
+import MongoStore from 'connect-mongo' 
 
 
 const uri = 'mongodb+srv://javypier1:Q1w2e3r4@jp-backend-coder01.bavi18s.mongodb.net/'

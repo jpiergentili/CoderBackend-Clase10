@@ -20,7 +20,7 @@ router.post('/register', async (req, res) =>{
 //vista de login
 router.get('/login', async (req, res) => {
     res.render('sessions/login')
-})
+}) 
 
 router.post('/login', async (req, res) => {
     const {email, password} = req.body
